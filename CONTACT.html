@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University Website Design - LEARNING WITH VIKAS</title>
+        <link rel="stylesheet" href="University_CSS.css">
+        <link rel="preconnect" href="http://fonts.gstatic.com">
+        <link href="http://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="Sub-header">
+            <nav>
+                <a href="index.html"><img src="https://www.okta.com/sites/default/files/Dev_Logo-02_Large-thumbnail.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="ABOUT_US.html">ABOUT</a></li>
+                         <li><a href="BLOG.html">BLOG</a></li>
+                         <li><a href="COURSES.html">COURSE</a></li>
+                          <li><a href="CONTACT.html">CONTACT</a></li>
+                          </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+            </section>
+        
+       
+        <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7276029.722307551!2d76.38912593265447!3d27.069673220557824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39994e9f7b4a09d3%3A0xf6a5476d3617249d!2sUttar%20Pradesh!5e0!3m2!1sen!2sin!4v1625782535829!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+        </section>
+        
+        <section class="contact-us">
+            <div class="row">
+               
+                <div class="contact-col">
+                    <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ ROAD, ABC BUILDING</h5>
+                        <P>LUCKNOW UTTAR PRADESH</p>
+                    </span>
+                    </div>
+                    <div>
+                    <i class="fa fa-phone"></i> 
+                    <span>
+                        <h5>+91-2299990011</h5>
+                        <P>MONDAY TO SATURDAY, 10AM TO 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>info@gmail.com</h5>
+                        <P>Email us for query</p>
+                    </span>
+                </div>
+                </div>
+                    <div class="contact-col">
+                        <form action="index.php">
+                            <input type="text" name="name" placeholder="Enter your name" required>
+                             <input type="email" name="email" placeholder="Enter your email address" required>
+                             <input type="text" name="suject" placeholder="Enter your subject" required>
+                             <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                              <button type="submit" class="hero-btn red-btn">Send Message</button>
+                        </form>
+                        
+                    </div>
+            </div>
+            </section>
+            
+        <section class="footer">
+            <h4>ABOUT US</h4>
+            <P>wfwekfnf fw f wf wfwe f  cs vergerkgsdv f  gvsvfc cdfkfjssd
+                    fwewefdfd ffdferwdsdlrf crgmgr. </P>
+        <div class="icons">
+             <i class="fa fa-facebook"></i>
+              <i class="fa fa-twitter"></i>
+               <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+        <p>Made by <i class="fa fa-heart-o"></i> VIKAS TIWARI</p>
+        </section>
+        <script>
+            
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0"; 
+            }
+            
+            function hideMenu(){
+            navLinks.style.right = "-200px";
+    }
+            
+            
+            
+            </script>
+        
+        
+        
+    </body>
+</html>
